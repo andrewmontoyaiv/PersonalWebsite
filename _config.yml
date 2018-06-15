@@ -53,6 +53,8 @@ pinterest_url:
 slack_url:
 twitter_url:
 
+permalink: /_pages/blog/:title:output_ext
+
 # Google Analytics Tracking ID goes here:
 google_analytics:
 
@@ -65,6 +67,7 @@ include: ["_pages"]
 ############################################################
 plugins:
   - jekyll-paginate-v2
+  # jekyll-seo-tag # https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 
 ############################################################
 
@@ -96,7 +99,7 @@ pagination:
   per_page: 2
 
   # The permalink structure for the paginated pages (this can be any level deep)
-  permalink: /hello/:num/ # Pages are index.html inside this folder (default)
+  permalink: /:num/ # Pages are index.html inside this folder (default)
   #permalink: '/page/:num.html' # Pages are simple html files
   #permalink: '/page/:num' # Pages are html files, linked jekyll extensionless permalink style.
 
