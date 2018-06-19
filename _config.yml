@@ -39,8 +39,8 @@ email: andrewmontoyaiv@gmail.com
 avatar: assets/images/avatar.jpg
 
 # You'll want to customize url and baseurl for your own site:
-baseurl: "/index" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "/andrewmontoyaiv" # the subpath of your site, e.g. /blog
+url: "andrewmontoyaiv.github.io" # the base hostname & protocol for your site
 
 # Social settings
 facebook_url:
@@ -53,17 +53,13 @@ slack_url:
 twitter_url: 'https://twitter.com/andymontoyaiv'
 youtube_url: 'https://www.youtube.com/user/Animaticals'
 
-permalink: /_pages/blog/:title:output_ext
 
 # Google Analytics Tracking ID goes here:
 google_analytics:
 
 # The following settings are NECESSARY for the Prologue theme to run:
-theme: jekyll-theme-prologue
 collections: [sections]
 
-
-include: ["_pages"]
 ############################################################
 plugins:
   - jekyll-paginate-v2
