@@ -61,6 +61,10 @@ google_analytics:
 collections: [sections]
 
 ############################################################
+
+exclude: [Gemfile, Rakefile, README]
+
+
 plugins:
   - jekyll-paginate-v2
   # jekyll-seo-tag # https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
